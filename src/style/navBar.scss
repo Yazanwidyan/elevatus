@@ -1,0 +1,24 @@
+.navbar {
+    height: 90px;
+    order: -3;
+    font-family: Ubuntu, sans-serif;
+    position: fixed !important;
+    transition: all 0.3s ease 0s;
+    z-index: 2;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border: 0;
+    box-shadow: none;
+
+    .container {
+        .navbar-nav {
+            a {
+
+                color: white;
+            }
+        }
+
+    }
+
+}

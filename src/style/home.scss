@@ -1,0 +1,42 @@
+.header {
+  min-height: 90vh;
+  max-height: 999px;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+
+  &::before {
+    content: "";
+    height: 92vh;
+    left: 0;
+    width: 100%;
+    z-index: -2;
+    background-size: cover;
+    position: absolute;
+    background-image: url('../Assets/abstract-blue-background-polygon-vector-1681413.jpg');
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0;
+    height: 800px;
+    transform: skewY(-2deg);
+    background: #fff;
+    top: 78%;
+    z-index: -1;
+  }
+
+  .header-title {
+    font-size: 2.75rem;
+    color: white;
+
+  }
+
+  .header-subTitle {
+    font-size: 1.5rem;
+    color: white;
+  }
+}
